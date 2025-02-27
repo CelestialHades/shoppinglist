@@ -1,0 +1,72 @@
+body { /* Targets the entire body of the page */
+    font-family: Arial, sans-serif; /* Sets font to Arial or a sans-serif fallback */
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Arranges children vertically */
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically in the viewport */
+    min-height: 100vh; /* Ensures body takes up full viewport height */
+    margin: 0; /* Removes default margin */
+    background-color: #e0f2f1; /* Sets a light teal background color */
+  }
+  
+  .list-container { /* Targets the main container div */
+    text-align: center; /* Centers text inside the container */
+    background: #fff; /* Sets a white background */
+    padding: 20px; /* Adds internal spacing */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    width: 400px; /* Sets a fixed width for the container */
+  }
+  
+  input { /* Targets the text input */
+    padding: 10px; /* Adds padding inside the input */
+    font-size: 16px; /* Sets font size for readability */
+    margin: 10px 0; /* Adds vertical spacing */
+    width: 70%; /* Sets width relative to the container */
+    border: 1px solid #ccc; /* Adds a light gray border */
+    border-radius: 5px; /* Rounds the input corners */
+  }
+  
+  button { /* Targets all buttons */
+    padding: 10px 20px; /* Adds padding for size */
+    font-size: 16px; /* Sets font size */
+    margin: 5px; /* Adds spacing around the button */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+  #add { /* Targets the Add button specifically */
+    background-color: #4caf50; /* Sets a green background */
+    color: white; /* Sets text color to white */
+  }
+  
+  #add:hover { /* Styles the Add button on hover */
+    background-color: #45a049; /* Darkens the green slightly */
+  }
+  
+  ul { /* Targets the unordered list */
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 20px 0; /* Adds vertical spacing */
+  }
+  
+  li { /* Targets each list item */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Spaces content evenly */
+    align-items: center; /* Centers items vertically */
+    padding: 10px; /* Adds internal spacing */
+    background-color: #f5f5f5; /* Sets a light gray background */
+    border-radius: 5px; /* Rounds the corners */
+    margin: 5px 0; /* Adds vertical spacing between items */
+  }
+  
+  .delete-btn { /* Targets delete buttons within list items */
+    background-color: #f44336; /* Sets a red background */
+    color: white; /* Sets text color to white */
+    padding: 5px 10px; /* Reduces padding for smaller size */
+  }
+  
+  .delete-btn:hover { /* Styles delete buttons on hover */
+    background-color: #da190b; /* Darkens the red slightly */
+  }
